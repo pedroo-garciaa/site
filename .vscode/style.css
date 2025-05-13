@@ -43,8 +43,10 @@ body * {
 }
 
 #container {
-	width: 360px;
-	margin: 56px auto 0px; /* é a mesma coisa que :
+	width: 100%;
+	margin: 56px auto 0px;
+	max-width: 588px;
+	 /* é a mesma coisa que :
 	margin-top :56px;
 	margin-right :auto;
 	margin-bottom : auto;
